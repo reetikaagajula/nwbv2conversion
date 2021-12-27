@@ -5,7 +5,12 @@ import RutishauserLabtoNWB.events.newolddelay.python.export.data as data
 from pynwb import NWBHDF5IO
 import numpy as np
 import logging
+import RutishauserLabtoNWB as RLab
 
+
+pathTONativeData = 'C:\Users\gajul\Desktop\r_gajula\gsocnwb\single neuron'
+
+RLab.NO2NWB_export(pathTONativeData)
 
 
 def NO2NWB_export(path_to_data):
